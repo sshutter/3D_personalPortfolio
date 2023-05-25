@@ -23,7 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  frontend,
+  fullStack,
 } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
@@ -40,20 +43,16 @@ export const navLinks = [
 ];
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Frontend Developer",
+    icon: frontend,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Full Stack Developer",
+    icon: fullStack,
   },
 ];
 const technologies = [

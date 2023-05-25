@@ -21,8 +21,8 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Phakin &nbsp;<span className="sm:block hidden">| Buddha</span>
+          <p className="text-wood text-[18px] font-bold cursor-pointer flex">
+            | Phakin &nbsp;<span className="sm:block hidden"> Buddha</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -30,8 +30,8 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white cursor-pointer`}
+                active === link.title ? "text-wood" : "text-fifth"
+              } hover:text-wood cursor-pointer`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -57,7 +57,7 @@ const Navbar = () => {
                 <li
                   key={link.id}
                   className={`${
-                    active === link.title ? "text-white" : "text-secondary"
+                    active === link.title ? "text-wood" : "text-wood-bright"
                   } font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);

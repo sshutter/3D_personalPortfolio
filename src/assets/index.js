@@ -7,6 +7,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import frontend from "./frontend.png";
+import fullStack from "./fullStack.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  frontend,
+  fullStack,
 };

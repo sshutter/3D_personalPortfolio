@@ -11,7 +11,7 @@ const Computers = ({ isMobile }) => {
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <spotLight
-        position={[8, 1, -6]}
+        position={[8, -2, -6]}
         angle={0.5}
         penumbra={1}
         intensity={1}
@@ -21,8 +21,8 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 1 : 1.5}
-        position={isMobile ? [0, -1.5, 3] : [0, -3, 4.5]}
+        scale={1.5}
+        position={[0, -4, 4.5]}
         rotation={[-0, -0, -0.2]}
       />
     </mesh>
@@ -30,35 +30,12 @@ const Computers = ({ isMobile }) => {
 };
 
 const ComputersCanvas = () => {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 640px)");
-
-    // Set the initial value of the `isMobile` state variable
-    setIsMobile(mediaQuery.matches);
-
-    // Define a callback function to handle changes to the media query
-    const handleMediaQueryChange = (event) => {
-      setIsMobile(event.matches);
-    };
-
-    // Add the callback function as a listener for changes to the media query
-    mediaQuery.addEventListener("change", handleMediaQueryChange);
-
-    // Remove the listener when the component is unmounted
-    return () => {
-      mediaQuery.removeEventListener("change", handleMediaQueryChange);
-    };
-  }, []);
-
   return (
     <Canvas
       frameloop="demand"
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 40 }}
+      camera={{ position: [20, 3, 5], fov: 50 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -67,7 +44,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile} />
+        <Computers />
       </Suspense>
 
       <Preload all />
