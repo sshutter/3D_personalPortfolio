@@ -25,6 +25,7 @@ import {
   threejs,
   frontend,
   fullStack,
+  resume,
 } from "../assets";
 
 export const navLinks = [

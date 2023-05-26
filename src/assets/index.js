@@ -33,6 +33,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import resume from "./Resume.pdf";
+
 export {
   logo,
   backend,
@@ -64,4 +66,5 @@ export {
   tripguide,
   frontend,
   fullStack,
+  resume,
 };
