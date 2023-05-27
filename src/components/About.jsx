@@ -20,9 +20,13 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-primary rounded-[20px] py-5 px-12 mix-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-primary rounded-[20px] py-5 px-12 h-[180px] flex justify-evenly items-center flex-col relative"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <img
+            src={icon}
+            alt={title}
+            className="w-16 h-16 object-contain position-absolute"
+          />
           <h3 className="text-wood text-[20px] font-bold text-center">
             {title}
           </h3>
@@ -44,12 +48,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-1 text-wood-bright text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a diligent and motivated junior in computer engineering of
-        Chulalongkorn University with experience in TypeScript and JavaScript,
-        and expertise in frameworks like React, Node.js, Next.js, Three.js, and
-        Spring.js. I'm a quick learner with strong leadership, problem- solving,
-        and critical thinking skills. Seeking an opportunity to gain additional
-        experience in the software development field.
+        A diligent and motivated senior in computer engineering of Chulalongkorn
+        University with strong leadership, problem- solving, and critical
+        thinking skills. Seeking an opportunity to gain additional experience in
+        the software development field.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">

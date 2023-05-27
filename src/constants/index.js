@@ -26,6 +26,7 @@ import {
   frontend,
   fullStack,
   resume,
+  tester,
 } from "../assets";
 
 export const navLinks = [
@@ -54,6 +55,10 @@ const services = [
   {
     title: "Full Stack Developer",
     icon: fullStack,
+  },
+  {
+    title: "Software Tester",
+    icon: tester,
   },
 ];
 const technologies = [

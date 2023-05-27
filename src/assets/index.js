@@ -9,6 +9,7 @@ import close from "./close.svg";
 
 import frontend from "./frontend.png";
 import fullStack from "./fullStack.png";
+import tester from "./tester.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -67,4 +68,5 @@ export {
   frontend,
   fullStack,
   resume,
+  tester,
 };
