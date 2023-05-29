@@ -136,31 +136,29 @@ const Hero = () => {
 
   return (
     <section className="relative w-full h-screen mx-auto">
+      <div
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 rol-2`}
+      >
+        <div>
+          <div className="relative">
+            <h1 className={`${styles.heroHeadText}`}>
+              Hi, I'm{" "}
+              <span className="text-[#6F171C]">
+                {text}
+                <span style={{ visibility: isVisible ? "visible" : "hidden" }}>
+                  |
+                </span>
+              </span>
+            </h1>
+            <p className={`${styles.heroSubText} mt-2 text-wood`}>
+              I develop 3D visuals, user <br className="sm:block hidden" />
+              interfaces and web applications
+            </p>
+          </div>
+        </div>
+      </div>
       {isCollapse && !isMobile ? (
         <>
-          <div
-            className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 rol-2`}
-          >
-            <div>
-              <div className="relative">
-                <h1 className={`${styles.heroHeadText}`}>
-                  Hi, I'm{" "}
-                  <span className="text-[#6F171C]">
-                    {text}
-                    <span
-                      style={{ visibility: isVisible ? "visible" : "hidden" }}
-                    >
-                      |
-                    </span>
-                  </span>
-                </h1>
-                <p className={`${styles.heroSubText} mt-2 text-wood`}>
-                  I develop 3D visuals, user <br className="sm:block hidden" />
-                  interfaces and web applications
-                </p>
-              </div>
-            </div>
-          </div>
           <div
             className="absolute inset-0 top-[80px]"
             style={{
@@ -199,29 +197,6 @@ const Hero = () => {
         </>
       ) : isMobile ? (
         <>
-          <div
-            className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 rol-2`}
-          >
-            <div>
-              <div className="relative">
-                <h1 className={`${styles.heroHeadText}`}>
-                  Hi, I'm{" "}
-                  <span className="text-[#6F171C]">
-                    {text}
-                    <span
-                      style={{ visibility: isVisible ? "visible" : "hidden" }}
-                    >
-                      |
-                    </span>
-                  </span>
-                </h1>
-                <p className={`${styles.heroSubText} mt-2 text-wood`}>
-                  I develop 3D visuals, user <br className="sm:block hidden" />
-                  interfaces and web applications
-                </p>
-              </div>
-            </div>
-          </div>
           <div
             className="absolute inset-0"
             style={{
@@ -262,29 +237,6 @@ const Hero = () => {
         </>
       ) : (
         <>
-          <div
-            className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7x1 mx-auto flex flex-row items-start gap-5 rol-2`}
-          >
-            <div>
-              <div className="relative">
-                <h1 className={`${styles.heroHeadText}`}>
-                  Hi, I'm{" "}
-                  <span className="text-[#6F171C]">
-                    {text}
-                    <span
-                      style={{ visibility: isVisible ? "visible" : "hidden" }}
-                    >
-                      |
-                    </span>
-                  </span>
-                </h1>
-                <p className={`${styles.heroSubText} mt-2 text-wood`}>
-                  I develop 3D visuals, user <br className="sm:block hidden" />
-                  interfaces and web applications
-                </p>
-              </div>
-            </div>
-          </div>
           <div
             className="absolute inset-0 top-[80px]"
             style={{ display: "flex", justifyContent: "flex-end" }}

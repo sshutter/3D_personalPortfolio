@@ -225,6 +225,10 @@
 }
 
 .animation_img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   animation: animateUser 4s linear infinite;
 }
 
