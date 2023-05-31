@@ -3,13 +3,14 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
   StarsCanvas,
 } from "./components";
+import Projects from "./components/Projects";
+import OthersProjects from "./components/OthersProjects";
 
 function App() {
   return (
@@ -20,10 +21,9 @@ function App() {
           <Hero />
         </div>
         <About />
-        <Experience />
+        <Projects />
+        <OthersProjects />
         <Tech />
-        <Works />
-        <Feedbacks />
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
