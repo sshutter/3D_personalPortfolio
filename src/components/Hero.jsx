@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 import { useState, useEffect } from "react";
 import picture from "../assets/My project.png";
 import { resume } from "../assets";
@@ -241,7 +240,6 @@ const Hero = () => {
             className="absolute inset-0 top-[80px]"
             style={{ display: "flex", justifyContent: "flex-end" }}
           >
-            {/* <ComputersCanvas /> */}
             <a
               href={resume}
               download="Phakin_Resume"
