@@ -10,6 +10,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      style={{ borderBottom: "1px solid #9E9E9E" }}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link
@@ -21,7 +22,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-wood text-[18px] font-bold cursor-pointer flex">
+          <p className="text-secondary text-[18px] font-bold cursor-pointer flex">
             | Phakin &nbsp;<span className="sm:block hidden"> Buddha</span>
           </p>
         </Link>
@@ -30,7 +31,7 @@ const Navbar = () => {
             <li
               key={link.id}
               className={`${
-                active === link.title ? "text-wood" : "text-fifth"
+                active === link.title ? "text-secondary" : "text-inactive"
               } hover:text-wood cursor-pointer`}
               onClick={() => setActive(link.title)}
             >

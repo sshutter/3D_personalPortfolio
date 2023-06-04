@@ -23,7 +23,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className="bg-card p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -46,7 +46,7 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h3 className="text-secondary font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
 
           <div className="mt-4 flex flex-wrap gap-2">
@@ -72,7 +72,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-wood-bright text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-grey text-[17px] max-w-3xl leading-[30px]"
         >
           The following projects are about a web application related to my field
           of interest. Each project is briefly described with links to the code

@@ -5,18 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#E5E5CB",
-        secondary: "#D5CEA3",
-        tertiary: "#3C2A21",
-        forth: "#1A120B",
-        fifth: "#9F8772",
-        wood: "#573523",
-        "wood-bright": "#7d543e",
-        "wood-brightest": "#8f654f",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
-        "all-black": "#000",
+        primary: "#fafafa",
+        secondary: "#1A1A1A",
+        inactive: "#9E9E9E",
+        normal: "#212121",
+        grey: "#969696",
+        card: "#e2e0e0",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",

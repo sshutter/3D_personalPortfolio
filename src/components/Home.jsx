@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import picture from "../assets/My project.png";
 import { resume } from "../assets";
 
-const Hero = () => {
+const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = ["Shutter", "Phakin"];
@@ -142,14 +142,14 @@ const Hero = () => {
           <div className="relative">
             <h1 className={`${styles.heroHeadText}`}>
               Hi, I'm{" "}
-              <span className="text-[#6F171C]">
+              <span className="text-[#7c0404]">
                 {text}
                 <span style={{ visibility: isVisible ? "visible" : "hidden" }}>
                   |
                 </span>
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-wood`}>
+            <p className={`${styles.heroSubText} mt-2 text-secondary`}>
               I develop 3D visuals, user <br className="sm:block hidden" />
               interfaces and web applications
             </p>
@@ -170,7 +170,7 @@ const Hero = () => {
               id="collapseCircle"
               href={resume}
               download="Phakin_Resume"
-              className="c_circle text-wood text-[25px] font-bold"
+              className="c_circle text-white text-[25px] font-bold"
               style={{
                 height: `${circleWidth * 0.55}px`,
                 width: `${circleWidth * 0.55}px`,
@@ -208,11 +208,11 @@ const Hero = () => {
               id="collapseCircle"
               href={resume}
               download="Phakin_Resume"
-              className="m_circle text-wood text-[25px] font-bold"
+              className="m_circle text-white text-[25px] font-bold"
               style={{
                 height: `${(645 - circleWidth) * 0.5}px`,
                 width: `${(645 - circleWidth) * 0.5}px`,
-                right: `10px`,
+                right: `5%`,
                 top: `30%`,
                 fontSize: `${(643 - circleWidth) * 0.05}px`,
                 animation: " animateCircle_m 9s linear infinite",
@@ -243,11 +243,11 @@ const Hero = () => {
             <a
               href={resume}
               download="Phakin_Resume"
-              className="circle text-wood text-[40px] font-bold"
+              className="circle text-white text-[40px] font-bold"
               style={{
-                height: `${circleWidth * 0.7}px`,
-                width: `${circleWidth * 0.7}px`,
-                fontSize: `${circleWidth * 0.06}px`,
+                height: `${circleWidth * 0.5}px`,
+                width: `${circleWidth * 0.5}px`,
+                fontSize: `${circleWidth * 0.05}px`,
               }}
             >
               Download Resume
@@ -272,4 +272,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

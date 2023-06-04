@@ -15,8 +15,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{
-      background: "#E5E5CB",
-      color: "#573523",
+      background: "#e2e0e0",
+      color: "#1A1A1A",
     }}
     contentArrowStyle={{ borderRight: "7px solid #573523" }}
     date={experience.date}

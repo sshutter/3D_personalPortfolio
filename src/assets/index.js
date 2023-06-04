@@ -35,6 +35,8 @@ import tripguide from "./tripguide.png";
 
 import resume from "./Resume.pdf";
 
+import circleBg from "./circle.png";
+
 export {
   logo,
   backend,
@@ -67,4 +69,5 @@ export {
   fullStack,
   resume,
   tester,
+  circleBg,
 };
