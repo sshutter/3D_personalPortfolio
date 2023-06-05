@@ -10,6 +10,7 @@ import {
 } from "./components";
 import Projects from "./components/Projects";
 import OthersProjects from "./components/OthersProjects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

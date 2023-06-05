@@ -34,8 +34,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -114,7 +114,7 @@ const technologies = [
     icon: docker,
   },
 ];
-const experiences = [
+const othersProjects = [
   {
     title: "React.js Developer",
     company_name: "Starbucks",
@@ -259,4 +259,4 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, othersProjects, testimonials, projects };

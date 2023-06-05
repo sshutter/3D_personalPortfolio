@@ -8,41 +8,43 @@ import { motion } from "framer-motion";
 import "react-vertical-timeline-component/style.min.css";
 
 import { styles } from "../styles";
-import { experiences } from "../constants";
+import { othersProjects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ExperienceCard = ({ experience }) => (
+const OthersCard = ({ othersProjects }) => (
   <VerticalTimelineElement
     contentStyle={{
       background: "#e2e0e0",
       color: "#1A1A1A",
     }}
     contentArrowStyle={{ borderRight: "7px solid #573523" }}
-    date={experience.date}
-    iconStyle={{ background: experience.iconBg }}
+    date={othersProjects.date}
+    iconStyle={{ background: othersProjects.iconBg }}
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img
-          src={experience.icon}
-          alt={experience.company_name}
+          src={othersProjects.icon}
+          alt={othersProjects.company_name}
           className="w-[60%] h-[60%] object-contain"
         />
       </div>
     }
   >
     <div>
-      <h3 className="text-wood text-[24px] font-bold">{experience.title}</h3>
+      <h3 className="text-wood text-[24px] font-bold">
+        {othersProjects.title}
+      </h3>
       <p
         className="text-wood-bright text-[16px] font-semibold"
         style={{ margin: 0 }}
       >
-        {experience.company_name}
+        {othersProjects.company_name}
       </p>
       <ul className="mt-5 list-disc ml-5 space-y-2">
-        {experience.points.map((point, index) => (
+        {othersProjects.points.map((point, index) => (
           <li
-            key={`experience-point-${index}`}
+            key={`othersProjects-point-${index}`}
             className="text-tertiary text-[14px] pl-1 tracking-wider"
           >
             {point}
@@ -53,7 +55,7 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-const Experience = () => {
+const OthersProjects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -63,12 +65,12 @@ const Experience = () => {
 
       <div className="mt-20 flex flex-col ">
         <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+          {othersProjects.map((othersProjects, index) => (
+            <OthersCard key={index} othersProjects={othersProjects} />
           ))}
         </VerticalTimeline>
       </div>
     </>
   );
 };
-export default SectionWrapper(Experience, "work");
+export default SectionWrapper(OthersProjects, "othersProjects");
