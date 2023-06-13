@@ -76,7 +76,9 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-secondary font-medium mb-4">Your Name</span>
+            <span className="text-secondary font-medium mb-4">
+              Your Name <a className="text-[#7c0404]">*</a>
+            </span>
             <input
               type="text"
               name="name"
@@ -84,10 +86,13 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-tertiary py-4 px-6 placeholder:text-fifth text-primary rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-secondary font-medium mb-4">Your Email</span>
+            <span className="text-secondary font-medium mb-4">
+              Your Email <a className="text-[#7c0404]">*</a>
+            </span>
             <input
               type="email"
               name="email"
@@ -95,11 +100,12 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-fifth text-primary rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
           <label className="flex flex-col">
             <span className="text-secondary font-medium mb-4">
-              Your Message
+              Your Message <a className="text-[#7c0404]">*</a>
             </span>
             <textarea
               rows="7"
@@ -108,6 +114,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="What's do you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-fifth text-primary rounded-lg outlined-none border-none font-medium"
+              required
             />
           </label>
           <button
