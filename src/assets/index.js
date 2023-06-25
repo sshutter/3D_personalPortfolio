@@ -31,7 +31,9 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import campgroundsBooking from "./campgroundsBooking.png";
 import tripguide from "./tripguide.png";
+import rails from "./rubyOnRails.png";
 
 import resume from "./Resume.pdf";
 
@@ -64,7 +66,9 @@ export {
   tesla,
   carrent,
   jobit,
+  campgroundsBooking,
   tripguide,
+  rails,
   frontend,
   fullStack,
   resume,

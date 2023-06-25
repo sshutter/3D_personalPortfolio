@@ -19,8 +19,10 @@ import {
   tesla,
   shopify,
   carrent,
+  campgroundsBooking,
   jobit,
   tripguide,
+  rails,
   threejs,
   frontend,
   fullStack,
@@ -196,66 +198,67 @@ const testimonials = [
 ];
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vehicle4U",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Car rental web-based platform that allows users to register as rental users and/or provider users. The rentals are allowed to search, request for booking, rate, and comment on the provider. The providers are allowed to manage and view their rented vehicles. Lastly, the website allows the renter and provider to chat through the browser to make an appointment and discuss the details.",
     tags: [
       {
-        name: "react",
+        name: "nextJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgresSQL",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link:
+      "https://github.com/2110336-2565-2/sec2_group12_Vehicle4U.git",
   },
   {
-    name: "Job IT",
+    name: "Campgrounds Booking",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Campgrounds booking web-based platform that allows users to register as user role and admin role. Ordinary users to search, view details, and book the campground for up to 3 days. The admin role is allowed to add new campgrounds, edit information about the campground and also delete the campground. By the way, this project is focus on backend more than frontend.",
     tags: [
+      {
+        name: "javaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: campgroundsBooking,
+    source_code_link: "https://github.com/sshutter/SWProjectFrontend.git",
   },
   {
-    name: "Trip Guide",
+    name: "E-Commerce Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An e-commerce website that allows users to register as a seller, buyer, and admin role. Sellers are allowed to add, edit amounts, and view the sale history of the merchandise. The buyers are allowed to search, buy, and view the purchase history of the merchandise. The admin is allowed to all users and included to manage users' information. Lastly, All roles are allowed to view the top seller of a specific range.",
     tags: [
       {
-        name: "nextjs",
+        name: "ruby",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "SQLite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: rails,
     source_code_link: "https://github.com/",
   },
 ];
