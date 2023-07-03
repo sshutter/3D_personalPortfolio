@@ -312,7 +312,7 @@
 @keyframes animateCircle_m {
   50% {
     transform: translateX(20px);
-    top: 28%;
+    top: 37%;
   }
 }
 

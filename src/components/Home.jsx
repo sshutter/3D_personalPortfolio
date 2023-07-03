@@ -215,7 +215,7 @@ const Home = () => {
                 right: `5%`,
                 top: `35%`,
                 fontSize: `${(643 - circleWidth) * 0.04}px`,
-                animation: " animateCircle_m 9s linear infinite",
+                animation: "animateCircle_m 9s linear infinite",
               }}
             >
               Download Resume
