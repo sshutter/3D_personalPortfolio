@@ -56,8 +56,8 @@ const OthersProjects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I have done so far.</p>
-        <h2 className={styles.sectionHeadText}>Others Project</h2>
+        <p className={styles.sectionSubText}>What I have done so far</p>
+        <h2 className={styles.sectionHeadText}>Others experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col ">
