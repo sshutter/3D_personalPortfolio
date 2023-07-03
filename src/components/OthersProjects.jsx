@@ -32,13 +32,10 @@ const OthersCard = ({ othersProjects }) => (
     }
   >
     <div>
-      <h3 className="text-wood text-[24px] font-bold">
+      <h3 className="text-secondary text-[24px] font-bold">
         {othersProjects.title}
       </h3>
-      <p
-        className="text-wood-bright text-[16px] font-semibold"
-        style={{ margin: 0 }}
-      >
+      <p className="text-grey text-[16px] font-semibold" style={{ margin: 0 }}>
         {othersProjects.company_name}
       </p>
       <ul className="mt-5 list-disc ml-5 space-y-2">

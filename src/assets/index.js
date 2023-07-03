@@ -24,10 +24,13 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import java from "./company/java.png";
+import iot from "./company/iot.png";
+import dataSci from "./company/data-science.png";
+import dataSci2 from "./company/data-science-2.png";
+import message from "./company/message.png";
+import documents from "./company/documents.png";
+import yannix from "./company/logo-yannix-thailand-co-ltd-763-145.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -60,10 +63,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  java,
+  iot,
+  dataSci,
+  dataSci2,
+  message,
+  documents,
+  yannix,
   carrent,
   jobit,
   campgroundsBooking,
