@@ -67,8 +67,6 @@ const Tech = () => {
         infinite={true}
         ssr={true}
         keyBoardControl={true}
-        arrows
-        pauseOnHover
       >
         {technologies.map((tech, index) => (
           <div key={tech.name} className="flex justify-center">
