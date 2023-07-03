@@ -65,14 +65,10 @@ const Tech = () => {
         className="bg-primary mt-20 py-5 flex flex-wrap align-items-center"
         responsive={responsive}
         infinite={true}
-        swipeable={true}
         ssr={true}
         keyBoardControl={true}
-        removeArrowOnDeviceType={["tablet", "mobile"]}
         arrows
         pauseOnHover
-        renderArrowsWhenDisabled={false}
-        renderButtonGroupOutside={false}
       >
         {technologies.map((tech, index) => (
           <div key={tech.name} className="flex justify-center">
