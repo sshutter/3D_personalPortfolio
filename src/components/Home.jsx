@@ -210,11 +210,11 @@ const Home = () => {
               download="Phakin_Resume"
               className="m_circle text-white text-[25px] font-bold"
               style={{
-                height: `${(645 - circleWidth) * 0.4}px`,
-                width: `${(645 - circleWidth) * 0.4}px`,
+                height: `${(645 - circleWidth) * 0.3}px`,
+                width: `${(645 - circleWidth) * 0.3}px`,
                 right: `5%`,
                 top: `35%`,
-                fontSize: `${(643 - circleWidth) * 0.04}px`,
+                fontSize: `${(643 - circleWidth) * 0.03}px`,
                 animation: "animateCircle_m 9s linear infinite",
               }}
             >
@@ -245,9 +245,9 @@ const Home = () => {
               download="Phakin_Resume"
               className="circle text-white text-[40px] font-bold"
               style={{
-                height: `${circleWidth * 0.5}px`,
-                width: `${circleWidth * 0.5}px`,
-                fontSize: `${circleWidth * 0.05}px`,
+                height: `${circleWidth * 0.3}px`,
+                width: `${circleWidth * 0.3}px`,
+                fontSize: `${circleWidth * 0.03}px`,
               }}
             >
               Download Resume
