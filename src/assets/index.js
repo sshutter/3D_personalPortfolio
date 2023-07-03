@@ -23,6 +23,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import cpp from "./tech/c-.png";
+import assembly from "./tech/assembly-machine.png";
+import ruby from "./tech/ruby.png";
+import nextJs from "./tech/next-js.png";
+import sqlite from "./tech/sqlite.png";
+import scala from "./tech/scala.png";
+import c from "./tech/c-original.png";
 
 import java from "./company/java.png";
 import iot from "./company/iot.png";
@@ -63,6 +71,14 @@ export {
   tailwind,
   typescript,
   threejs,
+  python,
+  cpp,
+  c,
+  assembly,
+  ruby,
+  nextJs,
+  sqlite,
+  scala,
   java,
   iot,
   dataSci,

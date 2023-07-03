@@ -14,6 +14,8 @@ import {
   git,
   figma,
   docker,
+  python,
+  cpp,
   java,
   iot,
   dataSci,
@@ -29,6 +31,12 @@ import {
   fullStack,
   resume,
   tester,
+  assembly,
+  ruby,
+  nextJs,
+  sqlite,
+  scala,
+  c,
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +47,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "tech",
+    title: "Techs",
   },
   {
     id: "contact",
@@ -64,6 +76,42 @@ const services = [
   },
 ];
 const technologies = [
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "C",
+    icon: c,
+  },
+  {
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Assembly Language",
+    icon: assembly,
+  },
+  {
+    name: "Ruby On Rails",
+    icon: ruby,
+  },
+  {
+    name: "NextJs",
+    icon: nextJs,
+  },
+  {
+    name: "Sqlite",
+    icon: sqlite,
+  },
+  {
+    name: "Scala",
+    icon: scala,
+  },
   {
     name: "HTML 5",
     icon: html,
