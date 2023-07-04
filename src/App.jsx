@@ -1,13 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import {
-  About,
-  Contact,
-  Experience,
-  Home,
-  Navbar,
-  Tech,
-  Works,
-} from "./components";
+import { About, Contact, Home, Navbar, Tech } from "./components";
 import Projects from "./components/Projects";
 import OthersProjects from "./components/OthersProjects";
 import Footer from "./components/Footer";

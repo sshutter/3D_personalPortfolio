@@ -15,6 +15,7 @@ export const textVariant = (delay) => {
     },
   };
 };
+
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
@@ -35,6 +36,7 @@ export const fadeIn = (direction, type, delay, duration) => {
     },
   };
 };
+
 export const zoomIn = (delay, duration) => {
   return {
     hidden: {
@@ -53,6 +55,7 @@ export const zoomIn = (delay, duration) => {
     },
   };
 };
+
 export const slideIn = (direction, type, delay, duration) => {
   return {
     hidden: {
@@ -71,6 +74,7 @@ export const slideIn = (direction, type, delay, duration) => {
     },
   };
 };
+
 export const staggerContainer = (staggerChildren, delayChildren) => {
   return {
     hidden: {},

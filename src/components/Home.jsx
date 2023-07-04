@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { useState, useEffect } from "react";
 import picture from "../assets/My project.png";
@@ -92,7 +91,7 @@ const Home = () => {
 
   useEffect(() => {
     // Add a listener for changes to the screen size
-    const mediaQuery = window.matchMedia("(max-width: 639px)");
+    const mediaQuery = window.matchMedia("(max-width: 650px)");
 
     // Set the initial value of the `isMobile` state variable
     setIsMobile(mediaQuery.matches);
@@ -170,11 +169,12 @@ const Home = () => {
               id="collapseCircle"
               href={resume}
               download="Phakin_Resume"
-              className="c_circle text-white text-[25px] font-bold"
+              className="c_circle text-white text-[25px] font-bold position-relative"
               style={{
                 height: `${circleWidth * 0.55}px`,
                 width: `${circleWidth * 0.55}px`,
                 fontSize: `${circleWidth * 0.05}px`,
+                pointerEvents: "auto",
               }}
             >
               Download Resume
@@ -189,8 +189,8 @@ const Home = () => {
             <img
               src={picture}
               alt="animation picture"
-              style={{ width: `auto`, height: "70%" }}
-              className="animation_img"
+              style={{ width: `auto`, height: "70%", pointerEvents: "none" }}
+              className="animation_img position-relative"
             />
           </div>
         </>
@@ -208,14 +208,15 @@ const Home = () => {
               id="collapseCircle"
               href={resume}
               download="Phakin_Resume"
-              className="m_circle text-white text-[25px] font-bold"
+              className="m_circle text-white text-[25px] font-bold position-relative"
               style={{
-                height: `${(645 - circleWidth) * 0.3}px`,
-                width: `${(645 - circleWidth) * 0.3}px`,
+                height: `${(645 - circleWidth) * 0.35}px`,
+                width: `${(645 - circleWidth) * 0.35}px`,
                 right: `5%`,
                 top: `35%`,
-                fontSize: `${(643 - circleWidth) * 0.03}px`,
+                fontSize: `${(643 - circleWidth) * 0.035}px`,
                 animation: "animateCircle_m 9s linear infinite",
+                pointerEvents: "auto",
               }}
             >
               Download Resume
@@ -230,7 +231,10 @@ const Home = () => {
             <img
               src={picture}
               alt="animation picture"
-              className="animation_img"
+              className="animation_img position-relative"
+              style={{
+                pointerEvents: "none",
+              }}
             />
           </div>
         </>
@@ -243,11 +247,12 @@ const Home = () => {
             <a
               href={resume}
               download="Phakin_Resume"
-              className="circle text-white text-[40px] font-bold"
+              className="circle text-white text-[40px] font-bold position-relative"
               style={{
-                height: `${circleWidth * 0.3}px`,
-                width: `${circleWidth * 0.3}px`,
-                fontSize: `${circleWidth * 0.03}px`,
+                height: `${circleWidth * 0.35}px`,
+                width: `${circleWidth * 0.35}px`,
+                fontSize: `${circleWidth * 0.035}px`,
+                pointerEvents: "auto",
               }}
             >
               Download Resume
@@ -255,15 +260,16 @@ const Home = () => {
             <a
               className="smCircle"
               style={{
-                height: `${circleWidth * 0.3}px`,
-                width: `${circleWidth * 0.3}px`,
+                height: `${circleWidth * 0.2}px`,
+                width: `${circleWidth * 0.2}px`,
               }}
             ></a>
 
             <img
               src={picture}
               alt="animation picture"
-              className="animation_img"
+              className="animation_img position-relative"
+              style={{ pointerEvents: "auto" }}
             />
           </div>
         </>
