@@ -249,9 +249,9 @@ const Home = () => {
               download="Phakin_Resume"
               className="circle text-white text-[40px] font-bold position-relative"
               style={{
-                height: `${circleWidth * 0.35}px`,
-                width: `${circleWidth * 0.35}px`,
-                fontSize: `${circleWidth * 0.035}px`,
+                height: `${circleWidth * 0.5}px`,
+                width: `${circleWidth * 0.5}px`,
+                fontSize: `${circleWidth * 0.04}px`,
                 pointerEvents: "auto",
               }}
             >
