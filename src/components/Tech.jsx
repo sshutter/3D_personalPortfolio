@@ -8,6 +8,7 @@ import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { BsFillArrowLeftCircleFill } from "react-icons/bs";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 const TechCard = ({ index, name, icon }) => {
   return (
@@ -31,29 +32,26 @@ const TechCard = ({ index, name, icon }) => {
   );
 };
 
-const Tech = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-      slidesToSlide: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-      slidesToSlide: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-      slidesToSlide: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-      slidesToSlide: 1,
-    },
-  };
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+const Tech = ({ deviceType }) => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -67,6 +65,35 @@ const Tech = () => {
         infinite={true}
         ssr={true}
         keyBoardControl={true}
+        autoPlay={deviceType !== "mobile"}
+        swipeable={deviceType !== "mobile"}
+        removeArrowOnDeviceType={["mobile"]}
+        autoPlaySpeed={3000}
+        customLeftArrow={
+          <BsFillArrowLeftCircleFill
+            size="40"
+            color="#1A1A1A"
+            style={{
+              position: "absolute",
+              left: 4,
+              cursor: "pointer",
+              opacity: 0.5,
+            }}
+          />
+        }
+        customRightArrow={
+          <BsFillArrowRightCircleFill
+            size="40"
+            color="#1A1A1A"
+            style={{
+              position: "absolute",
+              right: 4,
+              cursor: "pointer",
+              opacity: 0.5,
+            }}
+          />
+        }
+        pauseOnHover
       >
         {technologies.map((tech, index) => (
           <div key={tech.name} className="flex justify-center">
