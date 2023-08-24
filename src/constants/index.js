@@ -254,7 +254,7 @@ const othersProjects = [
     date: "Summer 2023",
     points: [
       "Creating machine learning model and NLP to detect machine readable content in email message.",
-      "Creating email extraction script and save into sqlite database.",
+      "Creating email extraction script and save into sqlite database in order to allow the production department to read feedback from clients.",
       "Creating a script for extracting database records to create tasks in company databases.",
       "Participating in code reviews and providing constructive feedback to another developer.",
     ],
