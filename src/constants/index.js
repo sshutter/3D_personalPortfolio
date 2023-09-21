@@ -290,7 +290,7 @@ const projects = [
       "Campgrounds booking web-based platform that allows users to register as user role and admin role. Ordinary users to search, view details, and book the campground for up to 3 days. The admin role is allowed to add new campgrounds, edit information about the campground and also delete the campground. By the way, this project is focus on backend more than frontend.",
     tags: [
       {
-        name: "javaScript",
+        name: "expressJS",
         color: "blue-text-gradient",
       },
       {
