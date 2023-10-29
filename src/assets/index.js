@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
+import backend from "./database-storage.png";
 import creator from "./creator.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -40,13 +40,12 @@ import message from "./company/message.png";
 import documents from "./company/documents.png";
 import yannix from "./company/logo-yannix-thailand-co-ltd-763-145.png";
 
-import carrent from "./carrent.png";
+import carrent from "./vehicle4u.png";
 import jobit from "./jobit.png";
 import campgroundsBooking from "./campgroundsBooking.png";
-import tripguide from "./tripguide.png";
 import rails from "./rubyOnRails.png";
 
-import resume from "./Resume.pdf";
+import resume from "./Phakin_Resume_Oct-2023.pdf";
 
 import circleBg from "./circle.png";
 
@@ -89,7 +88,6 @@ export {
   carrent,
   jobit,
   campgroundsBooking,
-  tripguide,
   rails,
   frontend,
   fullStack,

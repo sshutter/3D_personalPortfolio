@@ -62,19 +62,19 @@ const Footer = () => {
           </div>
           <div className="col-custom py-3">
             <div className="text-secondary justify-content-center align-content-center">
-              <button
+              {/* <button
                 className="text-dark m-1 px-2"
                 onClick={handleFacebookClick}
               >
                 <BsFacebook color="#1A1A1A" size={25} />
-              </button>
+              </button> */}
 
-              <button
+              {/* <button
                 className="text-dark m-1 px-2"
                 onClick={handleInstagramClick}
               >
                 <FaInstagram color="#1A1A1A" size={25} />
-              </button>
+              </button> */}
 
               <button className="text-dark m-1 px-2" onClick={openGmail}>
                 <FaEnvelope color="#1A1A1A" size={25} />

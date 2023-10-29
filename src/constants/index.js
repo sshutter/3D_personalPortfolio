@@ -173,10 +173,10 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Year 1 Semester 2",
     points: [
-      "Creating a turn-based strategy card game project with Java.",
-      "Participating in code reviews and providing constructive feedback to another developer.",
-      "Practicing communication, object-oriented programming, and also collaborating using git.",
-      "Implementing the logical part and also user interface.",
+      "Created a turn-based strategy card game project with Java.",
+      "Participated in code reviews and providing constructive feedback to another developer.",
+      "Practiced communication, object-oriented programming, and also collaborating using git.",
+      "Implemented the logical part and also user interface.",
     ],
   },
   {
@@ -186,9 +186,9 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Year 2 Semester 2",
     points: [
-      "Developing a car detection system and a web-based operation.",
+      "Developed a car detection system and a web-based operation.",
       "The system uses an IOT system to provide a solution to driving issues.",
-      "Implementing the system using ultrasonic sensor and acceleration sensor.",
+      "Implemented the system using ultrasonic sensor and acceleration sensor.",
       "Using Firebase to connect with the sensors and real-time database to our website",
     ],
   },
@@ -199,9 +199,9 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Year 3 Semester 1",
     points: [
-      "Creating software management plane, software requirement specification, and software design specification.",
-      "Designing database model.",
-      "Creating ER diagram, UML diagram, object diagram, components diagram, sequence diagram, class diagram, component diagram, use case diagram, package diagram and also deployment diagram.",
+      "Created software management plane, software requirement specification, and software design specification.",
+      "Designed database model.",
+      "Created ER diagram, UML diagram, object diagram, components diagram, sequence diagram, class diagram, component diagram, use case diagram, package diagram and also deployment diagram.",
     ],
   },
   {
@@ -213,7 +213,7 @@ const othersProjects = [
     points: [
       "Image classification using machine learning.",
       "Manually cleaning data with 10 classes ( around 20,000 samples ).",
-      "Creating, training, and testing the model using Keras.",
+      "Created, trained, and tested the model using Keras.",
     ],
   },
   {
@@ -223,11 +223,11 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Year 3 Semester 2",
     points: [
-      "Creating an end-to-end data science pipeline.",
-      "Scrapping data from a website with beautiful soup, streaming data using Kafka, and control with airflow.",
-      "Preparing and cleaning data",
-      "Creating, training and testing a forecasting model using prophet",
-      "Visualization with openBI",
+      "Created an end-to-end data science pipeline.",
+      "Scrapped data from a website with beautiful soup, streaming data using Kafka, and control with airflow.",
+      "Prepared and cleaning data",
+      "Implemented, training and testing a forecasting model using prophet",
+      "Created data visualization with openBI",
     ],
   },
   {
@@ -237,13 +237,7 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Year 3 Semester 2",
     points: [
-      "Creating a real-time chatting web-based application using socket programming.",
-      "Clients could see a list of users.",
-      "The clients could see a list of all created chat groups.",
-      "The client could created a chat group(s) and join the chat group(s).",
-      "The Chat room contains a chat box and a chat window",
-      " The clients could send a direct message to other clients in the list.",
-      "Each clients could see all the text messages in the hat group.",
+      "Implemented a real-time chatting web-based application using socket programming.",
     ],
   },
   {
@@ -253,31 +247,54 @@ const othersProjects = [
     iconBg: "#E6DEDD",
     date: "Summer 2023",
     points: [
-      "Creating machine learning model and NLP to detect machine readable content in email message.",
-      "Creating email extraction script and save into sqlite database in order to allow the production department to read feedback from clients.",
-      "Creating a script for extracting database records to create tasks in company databases.",
-      "Participating in code reviews and providing constructive feedback to another developer.",
+      "Researched a machine learning model to detect malicious content in email messages.",
+      "Implemented python scripts to extract email data into an SQLite database and generate tasks in the company's ERP system.",
+      "Gathered requirements and designed a web-based application to visualize the company's ERP system data.",
+      "Designed and implemented a user scheduling page in the company’s Vue.js chatting application as a full-stack developer.",
+      "Participated in code reviews and provided constructive feedback to team members.",
     ],
   },
 ];
 
 const projects = [
   {
+    name: "E-Commerce Website",
+    description:
+      "E-commerce web project covers both front-end and back-end development, representing the developer's first experience in web development. It's a significant step in their journey into the field of web development, with a particular emphasis on e-commerce functionality.",
+    tags: [
+      {
+        name: "ruby",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "SQLite",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "bootstrap",
+        color: "text-slate-900 font-bold",
+      },
+    ],
+    image: rails,
+    source_code_link: "https://github.com/",
+  },
+
+  {
     name: "Vehicle4U",
     description:
-      "Car rental web-based platform that allows users to register as rental users and/or provider users. The rentals are allowed to search, request for booking, rate, and comment on the provider. The providers are allowed to manage and view their rented vehicles. Lastly, the website allows the renter and provider to chat through the browser to make an appointment and discuss the details.",
+      "This car rental web platform places a strong emphasis on front-end development and design. It involves collaborative work with a team to ensure a cohesive and visually appealing user experience. The project is committed to following a specific design throughout its development process.",
     tags: [
       {
         name: "nextJS",
-        color: "blue-text-gradient",
+        color: "text-slate-900 font-bold",
       },
       {
         name: "postgresSQL",
-        color: "green-text-gradient",
+        color: "text-slate-900 font-bold",
       },
       {
         name: "react",
-        color: "pink-text-gradient",
+        color: "text-slate-900 font-bold",
       },
     ],
     image: carrent,
@@ -287,44 +304,23 @@ const projects = [
   {
     name: "Campgrounds Booking",
     description:
-      "Campgrounds booking web-based platform that allows users to register as user role and admin role. Ordinary users to search, view details, and book the campground for up to 3 days. The admin role is allowed to add new campgrounds, edit information about the campground and also delete the campground. By the way, this project is focus on backend more than frontend.",
+      "Web-based campground booking platform is designed to facilitate campground reservations. It places a significant focus on the development of its backend functionality. The project's primary emphasis is on backend development, prioritizing robust functionality over frontend aesthetics.",
     tags: [
       {
         name: "expressJS",
-        color: "blue-text-gradient",
+        color: "text-slate-900 font-bold",
       },
       {
         name: "mongoDB",
-        color: "green-text-gradient",
+        color: "text-slate-900 font-bold",
       },
       {
         name: "react",
-        color: "pink-text-gradient",
+        color: "text-slate-900 font-bold",
       },
     ],
     image: campgroundsBooking,
     source_code_link: "https://github.com/sshutter/SWProjectFrontend.git",
-  },
-  {
-    name: "E-Commerce Website",
-    description:
-      "An e-commerce website that allows users to register as a seller, buyer, and admin role. Sellers are allowed to add, edit amounts, and view the sale history of the merchandise. The buyers are allowed to search, buy, and view the purchase history of the merchandise. The admin is allowed to all users and included to manage users' information. Lastly, All roles are allowed to view the top seller of a specific range.",
-    tags: [
-      {
-        name: "ruby",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "SQLite",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rails,
-    source_code_link: "https://github.com/",
   },
 ];
 export { services, technologies, othersProjects, projects };
