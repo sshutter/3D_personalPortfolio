@@ -45,7 +45,7 @@ import jobit from "./jobit.png";
 import campgroundsBooking from "./campgroundsBooking.png";
 import rails from "./rubyOnRails.png";
 
-import resume from "./Phakin_Resume_Dec-2023.pdf";
+import resume from "./Phakin_Resume_2023.pdf";
 
 import circleBg from "./circle.png";
 
