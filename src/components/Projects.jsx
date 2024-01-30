@@ -10,6 +10,7 @@ import { projects } from "../constants";
 const ProjectCard = ({
   index,
   name,
+  role,
   description,
   tags,
   image,
@@ -34,7 +35,7 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-image_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="bg-neutral-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
                 src={github}
@@ -47,6 +48,7 @@ const ProjectCard = ({
 
         <div className="mt-5">
           <h3 className="text-secondary font-bold text-[24px]">{name}</h3>
+          <h6 className="text-grey text-[16px] font-semibold">{role}</h6>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
 
           <div className="mt-4 flex flex-wrap gap-2">
@@ -74,10 +76,11 @@ const Projects = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-grey text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects are about a web application related to my field
-          of interest. Each project is briefly described with links to the code
-          repositories. It reflects my ability to solve complex problems, work
-          with different technologies, and manage projects effectively.
+          The following projects are about a web application within my field of
+          study at the university. Each project is briefly described with links
+          to the code repositories. It reflects my ability to solve complex
+          problems, work with different technologies, and manage projects
+          effectively.
         </motion.p>
       </div>
 

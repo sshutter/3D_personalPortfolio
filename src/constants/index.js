@@ -1,7 +1,5 @@
 import {
   backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -29,14 +27,15 @@ import {
   threejs,
   frontend,
   fullStack,
-  resume,
+  swArch,
   tester,
-  assembly,
   ruby,
   nextJs,
-  sqlite,
-  scala,
   c,
+  swDev2,
+  mysql,
+  iosCer,
+  uxCer,
 } from "../assets";
 
 export const navLinks = [
@@ -47,6 +46,10 @@ export const navLinks = [
   {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "certs",
+    title: "Certs",
   },
   {
     id: "tech",
@@ -93,10 +96,6 @@ const technologies = [
     icon: cpp,
   },
   {
-    name: "Assembly Language",
-    icon: assembly,
-  },
-  {
     name: "Ruby On Rails",
     icon: ruby,
   },
@@ -105,12 +104,8 @@ const technologies = [
     icon: nextJs,
   },
   {
-    name: "Sqlite",
-    icon: sqlite,
-  },
-  {
-    name: "Scala",
-    icon: scala,
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "HTML 5",
@@ -259,6 +254,7 @@ const othersProjects = [
 const projects = [
   {
     name: "E-Commerce Website",
+    role: "Full Stack Developer",
     description:
       "E-commerce web project covers both front-end and back-end development, representing the developer's first experience in web development. It's a significant step in their journey into the field of web development, with a particular emphasis on e-commerce functionality.",
     tags: [
@@ -281,6 +277,7 @@ const projects = [
 
   {
     name: "Vehicle4U",
+    role: "Frontend Developer",
     description:
       "This car rental web platform places a strong emphasis on front-end development and design. It involves collaborative work with a team to ensure a cohesive and visually appealing user experience. The project is committed to following a specific design throughout its development process.",
     tags: [
@@ -303,6 +300,7 @@ const projects = [
   },
   {
     name: "Campgrounds Booking",
+    role: "Full Stack Developer",
     description:
       "Web-based campground booking platform is designed to facilitate campground reservations. It places a significant focus on the development of its backend functionality. The project's primary emphasis is on backend development, prioritizing robust functionality over frontend aesthetics.",
     tags: [
@@ -318,9 +316,71 @@ const projects = [
         name: "react",
         color: "text-slate-900 font-bold",
       },
+      {
+        name: "tailwindCSS",
+        color: "text-slate-900 font-bold",
+      },
     ],
     image: campgroundsBooking,
     source_code_link: "https://github.com/sshutter/SWProjectFrontend.git",
   },
+  {
+    name: "Funky Spa",
+    role: "Frontend Developer",
+    description:
+      "Web-based spa reservations platform is crafted to enhance the user experience, particularly emphasizing frontend and UI design for an intuitive reservation process. While maintaining robust backend functionality, the project prioritizes a visually appealing and user-friendly interface.",
+    tags: [
+      {
+        name: "nextJS",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "tailwindCSS",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "Figma",
+        color: "text-slate-900 font-bold",
+      },
+    ],
+    image: swDev2,
+    source_code_link:
+      "https://github.com/chanakorn-aramsak/Massage-Reservation",
+  },
+  {
+    name: "Drink Drank Drunk",
+    role: "Frontend Developer",
+    description:
+      "Experience the ultimate nightlife convenience with Drink Drank Drunk. This all-in-one app allows users to effortlessly book seats, order food, and settle bills. Nightclub administrators benefit from a dedicated web portal, ensuring smooth operations. Elevate your night out with ease and efficiency.",
+    tags: [
+      {
+        name: "nextJS",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "tailwindCSS",
+        color: "text-slate-900 font-bold",
+      },
+      {
+        name: "Figma",
+        color: "text-slate-900 font-bold",
+      },
+    ],
+    image: swArch,
+    source_code_link: "https://github.com/tanasak32123/ddd_frontend.git",
+  },
 ];
-export { services, technologies, othersProjects, projects };
+
+const certificates = [
+  {
+    name: "iOS Developer",
+    image: iosCer,
+    link: "https://www.coursera.org/account/accomplishments/verify/NX9BSSH2W84U",
+  },
+  {
+    name: "UX Designer",
+    image: uxCer,
+    link: "https://www.coursera.org/account/accomplishments/verify/YWNBUY9YHNVU",
+  },
+];
+export { services, technologies, othersProjects, projects, certificates };

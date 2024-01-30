@@ -57,12 +57,14 @@ const OthersProjects = () => {
     <>
       <motion.div variants={textVariant()} initial="hidden" animate="show">
         <div>
-          <p className={styles.sectionSubText}>What I have done so far</p>
-          <h2 className={styles.sectionHeadText}>Others experience</h2>
+          <p className={styles.sectionSubText}>
+            Exploring different academic projects
+          </p>
+          <h2 className={styles.sectionHeadText}>Others projects</h2>
         </div>
       </motion.div>
 
-      <div className="mt-20 flex flex-col ">
+      <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {othersProjects.map((othersProjects, index) => (
             <OthersCard key={index} othersProjects={othersProjects} />

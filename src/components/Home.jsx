@@ -149,8 +149,9 @@ const Home = () => {
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-secondary`}>
-              I develop 3D visuals, user <br className="sm:block hidden" />
-              interfaces and web applications
+              a recent graduate exploring frontend,
+              <br className="sm:block hidden" />
+              full-stack, UX/UI, and software testing.
             </p>
           </div>
         </div>

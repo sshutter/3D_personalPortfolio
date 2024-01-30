@@ -25,12 +25,10 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
 import cpp from "./tech/c-.png";
-import assembly from "./tech/assembly-machine.png";
 import ruby from "./tech/ruby.png";
 import nextJs from "./tech/next-js.png";
-import sqlite from "./tech/sqlite.png";
-import scala from "./tech/scala.png";
 import c from "./tech/c-original.png";
+import mysql from "./tech/mysql.png";
 
 import java from "./company/java.png";
 import iot from "./company/iot.png";
@@ -41,13 +39,15 @@ import documents from "./company/documents.png";
 import yannix from "./company/logo-yannix-thailand-co-ltd-763-145.png";
 
 import carrent from "./vehicle4u.png";
-import jobit from "./jobit.png";
+import swDev2 from "./sw-dev2.png";
 import campgroundsBooking from "./campgroundsBooking.png";
 import rails from "./rubyOnRails.png";
+import swArch from "./swArch.png";
 
 import resume from "./Phakin_Resume_2023.pdf";
 
-import circleBg from "./circle.png";
+import iosCer from "./ios_developer_cer.png";
+import uxCer from "./UX_Certificate.png";
 
 export {
   logo,
@@ -73,11 +73,8 @@ export {
   python,
   cpp,
   c,
-  assembly,
   ruby,
   nextJs,
-  sqlite,
-  scala,
   java,
   iot,
   dataSci,
@@ -86,12 +83,15 @@ export {
   documents,
   yannix,
   carrent,
-  jobit,
   campgroundsBooking,
   rails,
   frontend,
   fullStack,
   resume,
   tester,
-  circleBg,
+  swDev2,
+  mysql,
+  swArch,
+  iosCer,
+  uxCer,
 };

@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import { About, Contact, Home, Navbar, Tech } from "./components";
+import { About, Contact, Home, Navbar, Tech, Certificates } from "./components";
 import Projects from "./components/Projects";
 import OthersProjects from "./components/OthersProjects";
 import Footer from "./components/Footer";
@@ -16,6 +16,7 @@ function App() {
         <About />
         <Projects />
         <OthersProjects />
+        <Certificates />
         <Tech />
         <div className="relative z-0">
           <Contact />
