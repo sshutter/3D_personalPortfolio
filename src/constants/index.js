@@ -36,6 +36,7 @@ import {
   mysql,
   iosCer,
   uxCer,
+  cloud,
 } from "../assets";
 
 export const navLinks = [
@@ -158,6 +159,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Cloud Computing",
+    icon: cloud,
   },
 ];
 const othersProjects = [

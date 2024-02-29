@@ -29,6 +29,7 @@ import ruby from "./tech/ruby.png";
 import nextJs from "./tech/next-js.png";
 import c from "./tech/c-original.png";
 import mysql from "./tech/mysql.png";
+import cloud from "./tech/cloud.png";
 
 import java from "./company/java.png";
 import iot from "./company/iot.png";
@@ -94,4 +95,5 @@ export {
   swArch,
   iosCer,
   uxCer,
+  cloud,
 };
