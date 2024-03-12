@@ -45,7 +45,7 @@ import campgroundsBooking from "./campgroundsBooking.png";
 import rails from "./rubyOnRails.png";
 import swArch from "./swArch.png";
 
-import resume from "./Phakin_Resume_2023.pdf";
+import resume from "./Phakin_Buddha_2024_Resume.pdf";
 
 import iosCer from "./ios_developer_cer.png";
 import uxCer from "./UX_Certificate.png";
